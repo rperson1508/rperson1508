@@ -1,5 +1,5 @@
 ```python
-class AboutMe():
+class AboutMe:
     def __init__(self):
         self.name = "invalid-user"
         self.pronouns = ["he", "him"]

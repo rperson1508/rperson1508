@@ -1,6 +1,6 @@
 ```python
 class AboutMe:
-    def __init__(self):
+    def __init__(self) -> None:
         self.name = "invalid-user"
         self.pronouns = ["he", "him"]
         self.hobbies = ["playing the drums", "science", "chess"]
@@ -8,6 +8,7 @@ class AboutMe:
         self.computing_languages = ["python", "html", "css", "sql"]
         self.tools = ["visual studio code", "git"]
     
-    def discord(self):
+    @property
+    def discord(self) -> str:
         return "invalid-user#1119"
 ```

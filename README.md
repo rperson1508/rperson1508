@@ -8,6 +8,6 @@ class AboutMe:
         self.computing_languages = ["python", "html", "css", "sql"]
         self.tools = ["visual studio code", "git"]
     
-    async def discord(self):
+    def discord(self):
         return "invalid-user#1119"
 ```
